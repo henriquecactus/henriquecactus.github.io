@@ -4,26 +4,24 @@
     </head>
     <body>
         <p style = "font: size 36; color:darkblue"> Bem-vindo(a) ao meu portfolio :3 </p>
-        <button id = "Botao"> Clique aqui para ver os meus jogos! </button>
+        <button id = "Botao" onclick = "anao_vei()"> Clique aqui para ver os meus jogos! </button>
         <script>
-
-            botao = document.getElementById("Botao");
-
-            function anao_vei() 
-            {
-                
-                
+            
+            function anao_vei() {
+                alert("risitas");
+                while(true) {
+                    var i = 10;
+                    while(i > 0) {
+						i++;
+						var j = -1;
+						while(j < 0) {
+							j--;
+							console.log("TROLLEI");
+						}
+					}
+                }
             }
-
-            botao.onclick = function() {
-            	var i = 10;
-                while(i > 0) 
-                {
-                    i += 2;
-                    console.log(i);
-                }   
-            }
-
+            
         </script>
     </body>
 </html>
